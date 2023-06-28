@@ -5,8 +5,8 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-    private String URL = "jdbc:mysql://localhost:3306/senhas";
-    private String USUARIO = "root";
+    private String URL = "";
+    private String USUARIO = "";
     private String SENHA = "";
 
     // conectar com SQL
