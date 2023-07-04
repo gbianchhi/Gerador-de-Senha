@@ -15,6 +15,7 @@ public class App {
 
         if (dao.validar_senha(senha) > 0) {
             System.out.println("Senha ja existente. Gere uma nova senha.");
+            dao.fechar_conexao();
         } else {
             dao.adicionar(senha);
             dao.print_tabela();
