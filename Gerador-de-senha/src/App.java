@@ -1,6 +1,6 @@
 import java.sql.Connection;
 
-public class teste {
+public class App {
     public static void main(String[] args) {
 
         Gerador gerador = new Gerador();
