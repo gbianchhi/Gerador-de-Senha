@@ -3,4 +3,4 @@
  
  Foi criado um gerador de senha que, atraves de conexão com o MySQL, checa a existencia da senha gerada e, caso ainda não existente, armazena a nova senha no banco.
 
- testando
+
